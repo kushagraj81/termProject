@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@color/tan_background">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/category_numbers">
+
+        <TextView
+            android:id="@+id/numbers"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Numbers"
+            android:textSize="24dp"
+            android:paddingLeft="12dp"
+            android:paddingBottom="24dp"
+            android:paddingTop="24dp"
+            android:background="?android:attr/selectableItemBackground"
+
+            />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/category_colors">
+        <TextView
+            android:id="@+id/colors"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Colors"
+            android:textSize="24dp"
+            android:paddingLeft="12dp"
+            android:paddingBottom="24dp"
+            android:paddingTop="24dp"
+            android:background="?android:attr/selectableItemBackground"
+
+            />
+    </FrameLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/category_family">
+
+        <TextView
+            android:id="@+id/family"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Family Members"
+            android:textSize="24dp"
+            android:paddingLeft="12dp"
+            android:paddingBottom="24dp"
+            android:paddingTop="24dp"
+
+            android:background="?android:attr/selectableItemBackground"
+
+            />
+    </FrameLayout>
+
+
+
+</LinearLayout>
